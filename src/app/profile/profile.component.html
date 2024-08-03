@@ -1,0 +1,22 @@
+<!-- src/app/profile/profile.component.html -->
+<div class="profile">
+    <h2>Profile</h2>
+    
+    <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input id="name" formControlName="name" type="text" class="form-control" />
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input id="email" formControlName="email" type="email" class="form-control" />
+      </div>
+      
+      <div class="form-group">
+        <label for="role">Role</label>
+        <input id="role" formControlName="role" type="role" class="form-control" />
+      </div>
+    </form>
+  </div>
+  

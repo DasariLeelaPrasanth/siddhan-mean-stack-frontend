@@ -1,0 +1,85 @@
+<!-- src/app/analytics/analytics.component.html -->
+<div class="analytics">
+    <div class="chart-row">
+      <div class="chart-container">
+        <highcharts-chart
+          [Highcharts]="Highcharts"
+          [options]="pieChartOptions"
+          style="width: 100%; height: 400px; display: block;">
+        </highcharts-chart>
+      </div>
+  
+      <div class="chart-container">
+        <highcharts-chart
+          [Highcharts]="Highcharts"
+          [options]="donutChartOptions"
+          style="width: 100%; height: 400px; display: block;">
+        </highcharts-chart>
+      </div>
+    </div>
+  
+    <div class="chart-row">
+      <div class="chart-container">
+        <highcharts-chart
+          [Highcharts]="Highcharts"
+          [options]="barChartOptions"
+          style="width: 100%; height: 400px; display: block;">
+        </highcharts-chart>
+      </div>
+  
+      <div class="chart-container">
+        <highcharts-chart
+          [Highcharts]="Highcharts"
+          [options]="lineChartOptions"
+          style="width: 100%; height: 400px; display: block;">
+        </highcharts-chart>
+      </div>
+    </div>
+  
+    <div class="chart-row">
+      <div class="chart-container">
+        <highcharts-chart
+          [Highcharts]="Highcharts"
+          [options]="columnChartOptions"
+          style="width: 100%; height: 400px; display: block;">
+        </highcharts-chart>
+      </div>
+  
+      <div class="chart-container">
+        <highcharts-chart
+          [Highcharts]="Highcharts"
+          [options]="areaChartOptions"
+          style="width: 100%; height: 400px; display: block;">
+        </highcharts-chart>
+      </div>
+    </div>
+  
+    <div class="chart-row">
+      <div class="chart-container">
+        <highcharts-chart
+          [Highcharts]="Highcharts"
+          [options]="scatterPlotOptions"
+          style="width: 100%; height: 400px; display: block;">
+        </highcharts-chart>
+      </div>
+  
+      <div class="chart-container">
+        <highcharts-chart
+          [Highcharts]="Highcharts"
+          [options]="bubbleChartOptions"
+          style="width: 100%; height: 400px; display: block;">
+        </highcharts-chart>
+      </div>
+    </div>
+  
+    <div class="chart-row">
+      <div class="chart-container">
+        <highcharts-chart
+          [Highcharts]="Highcharts"
+          [options]="gaugeChartOptions"
+          style="width: 100%; height: 400px; display: block;">
+        </highcharts-chart>
+      </div>
+    </div>
+  </div>
+  

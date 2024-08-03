@@ -1,0 +1,11 @@
+<!-- src/app/navbar/navbar.component.html -->
+<nav class="navbar">
+    <div class="container">
+      <a *ngIf="role == 'Admin'" routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+      <a routerLink="/reports" routerLinkActive="active">Reports</a>
+      <a routerLink="/analytics" routerLinkActive="active">Analytics</a>
+      <a routerLink="/profile" routerLinkActive="active">Profile</a>
+      <button (click)="logout()">Logout</button>
+    </div>
+  </nav>
+  

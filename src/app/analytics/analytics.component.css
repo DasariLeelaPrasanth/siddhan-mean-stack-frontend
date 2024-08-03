@@ -1,0 +1,29 @@
+/* src/app/analytics/analytics.component.css */
+.analytics {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .chart-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .chart-container {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .chart-container:nth-child(1) {
+    margin-left: 0;
+  }
+  
+  .chart-container:nth-child(2) {
+    margin-right: 0;
+  }
+  
+  .chart-container:nth-of-type(2) {
+    margin-left: 0;
+  }
+  
